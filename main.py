@@ -113,6 +113,7 @@ try:
                 guess = list(user_guess)
 
         if (not ("_" in guess)):
+            clear()
             print_stage()
             print_guess()
             print_wrong_guesses()
