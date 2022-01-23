@@ -118,6 +118,7 @@ try:
             print_guess()
             print_wrong_guesses()
             print("The user has won!")
+            print("The word was: " + "".join(word))
             print("")
             over = True
 except KeyboardInterrupt:
